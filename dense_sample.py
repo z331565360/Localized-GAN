@@ -32,7 +32,6 @@ parser.add_argument('--netG', default='', help="path to netG (to continue traini
 parser.add_argument('--outf', default='.', help='folder to output images and model checkpoints')
 parser.add_argument('--manualSeed', type=int, help='manual seed')
 parser.add_argument('--var', type=float, default=3)
-parser.add_argument('--delta', type=float, default=0.0001)
 
 opt = parser.parse_args()
 print(opt)
