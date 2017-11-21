@@ -38,3 +38,5 @@ python train.py --dataset mnist --dataroot ./mnist --imageSize 32 --nz 10 --nc 1
 ```bash
 python dense_sample.py --dataset mnist --dataroot ./mnist --imagesSize 32 --nz 10 --nc 1 --cuda --netG "./results/mnist/netG_epoch_24.pth" --outf "./results/mnist"
 ```
+## Acknowledge
+Parts of codes are reused from DCGAN at https://github.com/pytorch/examples/tree/master/dcgan
